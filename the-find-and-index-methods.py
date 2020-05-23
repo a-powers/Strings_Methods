@@ -17,7 +17,7 @@ print(browser.find("o", 5))
 
 print("Ch" in browser)
 
-print(browser.index("o"))
+print(browser.index("e"))
 #print(browser.index("Z"))
 # the Z crashes program
 
@@ -26,5 +26,5 @@ print(browser.index("o"))
 print(browser.rfind("o",1,-5))
 print(browser.rfind("e",6))
 print(browser.rfind("e",-1))
-print("chicken_butt".rfind("c",1))
-print("chicken_butt".rfind("z"))
+print("Chicken_butt".rfind("c",1))
+print("chicken_butt".rfind("z"))   # -1 is returned when not found

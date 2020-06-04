@@ -13,3 +13,6 @@ mad_libs = F"{name} laughed at the {adjective} {noun}."
 print(mad_libs)
 
 print(f"2 + 2 is {2 + 2}")
+
+
+print(f"Hi little {adjective} {noun}.  We're {name}.")

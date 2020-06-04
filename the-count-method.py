@@ -16,7 +16,7 @@ def vowel_count(word: str):
 print(vowel_count("superkalifragilisticexpealodcious"))
 
 
-
+# rfind finds the right most position
 def find_my_letter(a:str, b:chr):
     return a.rfind(b) 
 print(find_my_letter(a = "Butter",b = "u"))

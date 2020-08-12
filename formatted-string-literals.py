@@ -16,3 +16,5 @@ print(f"2 + 2 is {2 + 2}")
 
 
 print(f"Hi little {adjective} {noun}.  We're {name}.")
+
+print(f"2 to the power of 2 equals {2**2}")

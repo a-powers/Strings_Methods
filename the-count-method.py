@@ -11,12 +11,7 @@ print(word.count("ing"))
 print(word.count("u") + word.count("e"))
 
 
-def vowel_count(word: str):
-    return word.count("a") + word.count("e") + word.count("i") + word.count("o") + word.count("u")
-print(vowel_count("superkalifragilisticexpealodcious"))
 
-
-# rfind finds the right most position
-def find_my_letter(a:str, b:chr):
-    return a.rfind(b) 
-print(find_my_letter(a = "Butter",b = "u"))
+def vowel_count(string):
+    return string.count("a") + string.count("e") + string.count("i") + string.count("o") + string.count("u")
+print(vowel_count("aeiou"))

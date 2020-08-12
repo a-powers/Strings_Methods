@@ -9,3 +9,8 @@ website = "www.python.org"
 print(website.lstrip("w"))
 print(website.rstrip(".org"))
 print(website.strip("worg."))
+
+
+pizza = "extra pepperoni"
+
+print(pizza.strip("extra "))

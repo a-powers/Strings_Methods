@@ -12,12 +12,3 @@
 
 
 
-# def vowel_count(string):
-#     return string.count("a") + string.count("e") + string.count("i") + string.count("o") + string.count("u")
-# print(vowel_count("aeiou"))
-
-
-
-def beach(string):
-    return string.count("e")
-print(beach("rehobeth"))
